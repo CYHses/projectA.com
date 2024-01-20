@@ -9,7 +9,7 @@
 			margin-left: 100px;
 		}
 			h1{
-				margin-top: 50px;
+				margin-top: 10px;
 				text-align: center;
 				color: #F1BC00;
 				font-family:Georgia ;
@@ -38,12 +38,18 @@
 			em{
 				color: #F4A460;
 			}
+			img{
+				width: 100px;
+				height: 100px;
+				
+			}
 		
 			
 		</style>
 		
 	</head>
 	<body>
+		<img src="questionmark.png"\>
 		<h1>SignUp</h1>
 		<p>First Name</p>
 		<input id="input1"type="text" placeholder="text"\>
@@ -60,7 +66,7 @@
 		<br>
 	
 		<button onclick="confirm()">Confirm</button><br>
-			<a href="CYHses.html"> <em id="checkconfirm" ></em></a>
+			<a href="index.html"> <em id="checkconfirm" ></em></a>
 		<script>
 		function confirm(){
 			const confirm=document.getElementById("checkconfirm");
@@ -73,15 +79,26 @@
 			const check3=document.getElementById("check3");
 			const check4=document.getElementById("check4");
 			
+			
+			
 			if (first==="") {
 				first=0;
+				
 				check1.innerHTML="*";
+				const input1=document.querySelectorAll("input");
+				input1[0].placeholder="input first name";
+				
+				
 				check2.innerHTML="";
 				check3.innerHTML="";
 				check4.innerHTML="";
 				confirm.innerHTML="";
 			}else if (last===""){
 				last=0;
+				
+				const input1=document.querySelectorAll("input");
+				input1[1].placeholder="input last name";
+				
 				check1.innerHTML="";
 				check2.innerHTML="*";
 				check3.innerHTML="";
@@ -89,6 +106,10 @@
 				confirm.innerHTML="";
 			}else if (password==="") {
 				password=0;
+				
+				const input1=document.querySelectorAll("input");
+				input1[2].placeholder="input password";
+			
 				check1.innerHTML="";
 				check2.innerHTML="";
 				check3.innerHTML="*";
@@ -96,6 +117,11 @@
 				confirm.innerHTML="";
 			}else if (cpassword==="") {
 				cpassword=0;
+				
+				const input1=document.querySelectorAll("input");
+				input1[3].placeholder="input confirm password";
+		
+		
 				check1.innerHTML="";
 				check2.innerHTML="";
 				check3.innerHTML="";
@@ -109,13 +135,12 @@
 				check3.innerHTML="";
 				check4.innerHTML="";
 				confirm.innerHTML=" login click here";
+				const changephoto=document.querySelector("img");
+			changephoto.src=("profile.jpg");
+		   
+				
 			}
 			
-			
-			
-			
-			
-		
 		}
 		</script>
 		
