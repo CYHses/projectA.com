@@ -1,4 +1,6 @@
-
+#brownMode{
+	margin: 20px 0 0 80%;
+}
 img{
 	width: 300px;
 	height:300px;
@@ -11,6 +13,10 @@ body{
 	text-align: center;
 	background-color: black;
 }
+.brownMode{
+	background-color: #160b00;
+	text-align: center;
+}
 
 h1{
 	color: #AF8FFF;
@@ -19,16 +25,17 @@ h1{
 
 button{
 	margin-top: 20px;
-	color: #FFB994;
+	color: #f1860b;
 	border: solid 1px;
-	border-color: #D3D7D5;
+	border-color: #ff8d03;
 	border-radius: 20px;
 	padding: 3px 10px 3px 10px;
+	background-color: rgb(78, 53, 0);
 }
 
 input{
 	margin-top: 5px;
-	color: #E29DFF;
+	color: rgb(207, 136, 5);
 	border:solid 1px;
 	border-radius: 20px;
 	border-color: #FFDFAA;
@@ -41,4 +48,8 @@ p{
 strong{
 	margin-left: 2px;
 	color: red;
+}
+a{
+	color: #f1860b;
+	
 }
