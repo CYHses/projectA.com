@@ -1,6 +1,8 @@
 body{
-    background-color:#210E24;
-    color: rgb(87, 1, 15);
+    background-image:url("profile.jpg");
+    color:#714423;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 table,td , th{
@@ -22,6 +24,7 @@ table{
 }
 h3,h4{
     text-align: center;
+    color: rgb(32, 147, 249);
 }
 select{
     background-attachment: fixed;
