@@ -14,6 +14,9 @@ table,td , th{
 table{
     width: 100%;
 }
+.summaryTable{
+	width:50%
+}
 h3,h4{
     text-align: center;
 }
