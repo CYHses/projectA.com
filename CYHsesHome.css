@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(24, 15, 1);
-    color: rgb(255, 179, 0);
+    background-color:rgb(233, 175, 41);
+    color: rgb(87, 1, 15);
 }
 
 table,td , th{
@@ -8,17 +8,17 @@ table,td , th{
     border: 1px solid rgb(112, 66, 2);
     text-align: center;
     color: #faa700;
-    background-color: #000c10;
-    height:45px;
+    background-color: #022d3b;
+    height: 45px;
 }
 th{
-   height:35px;	
+    height: 35px;
 }
 table{
     width: 100%;
 }
 .summaryTable{
-	width:50%
+    width: 50%;
 }
 h3,h4{
     text-align: center;
@@ -48,12 +48,12 @@ option{
 }
 button{
 	margin-top: 20px;
-	color: #f1860b;
+	color: #703d02;
 	border: solid 1px;
-	border-color: #ff8d03;
+	border-color: #755267;
 	border-radius: 20px;
 	padding: 3px 10px 3px 10px;
-	background-color: rgb(78, 53, 0);
+	background-color: rgb(219, 155, 7);
 }
 
 div{
