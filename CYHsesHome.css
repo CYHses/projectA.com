@@ -1,8 +1,11 @@
 body{
-    background-image:url("profile.jpg");
-    color:#714423;
+    background-image: url('profile.jpg');
+    color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    background-position: center;
+    height: 100%;
 }
 
 table,td , th{
